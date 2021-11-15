@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { commerce } from "./lib/commerce";
 import { Products, Navbar, Cart, Checkout } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { set } from "../node_modules/react-hook-form/dist";
+// import { set } from "../node_modules/react-hook-form/dist";
 
 const App = () => {
   const [products, setProducts] = useState([]);
